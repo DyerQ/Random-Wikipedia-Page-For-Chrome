@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Random Wikipedia Page Extension Options</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<table>
+    <tr>
+        <td align="right"><label for="domain">Domain</label></td>
+        <td align="left">
+            <select id="domain">
+                <!-- 100,000+ content pages, sorted by romanization -->
+                <option value="ar">العربية</option><!-- Al-ʿArabīyah -->
+                <option value="ast">Asturianu</option>
+                <option value="az">Azərbaycanca</option>
+                <option value="bg">Български</option><!-- Bǎlgarski -->
+                <option value="nan">Bân-lâm-gú / Hō-ló-oē</option>
+                <option value="bn">বাংলা</option><!-- Bangla -->
+                <option value="be">Беларуская</option><!-- Belaruskaya -->
+                <option value="ca">Català</option>
+                <option value="cs">Čeština</option><!-- čeština -->
+                <option value="cy">Cymraeg</option><!-- Cymraeg -->
+                <option value="da">Dansk</option>
+                <option value="de">Deutsch</option>
+                <option value="et">Eesti</option>
+                <option value="el">Ελληνικά</option><!-- Ellīniká -->
+                <option value="en">English</option><!-- English -->
+                <option value="es">Español</option>
+                <option value="eo">Esperanto</option>
+                <option value="eu">Euskara</option>
+                <option value="fa">فارسی</option><!-- Fārsi -->
+                <option value="fr">Français</option>
+                <option value="gl">Galego</option>
+                <option value="hy">Հայերեն</option><!-- Hayeren -->
+                <option value="hi">हिन्दी</option><!-- Hindī -->
+                <option value="hr">Hrvatski</option>
+                <option value="id">Bahasa Indonesia</option>
+                <option value="it">Italiano</option>
+                <option value="he">עברית</option><!-- Ivrit -->
+                <option value="ka">ქართული</option><!-- Kartuli -->
+                <option value="la">Latina</option>
+                <option value="lv">Latviešu</option>
+                <option value="lt">Lietuvių</option>
+                <option value="hu">Magyar</option>
+                <option value="mk">Македонски</option><!-- Makedonski -->
+                <option value="arz">مصرى</option><!-- Maṣrī -->
+                <option value="ms">Bahasa Melayu</option>
+                <option value="min">Bahaso Minangkabau</option>
+                <option value="my">မြန်မာဘာသာ</option><!-- Myanmarsar -->
+                <option value="nl">Nederlands</option>
+                <option value="ja">日本語</option><!-- Nihongo -->
+                <option value="no">Norsk (bokmål)</option>
+                <option value="nn">Norsk (nynorsk)</option>
+                <option value="ce">Нохчийн</option><!-- Noxçiyn -->
+                <option value="uz">Oʻzbekcha / Ўзбекча</option>
+                <option value="pl">Polski</option>
+                <option value="pt">Português</option>
+                <option value="kk">Қазақша / Qazaqşa / قازاقشا</option>
+                <option value="ro">Română</option>
+                <option value="ru">Русский</option><!-- Russkiy -->
+                <option value="simple">Simple English</option>
+                <option value="ceb">Sinugboanong Binisaya</option>
+                <option value="sk">Slovenčina</option>
+                <option value="sl">Slovenščina</option>
+                <option value="sr">Српски / Srpski</option>
+                <option value="sh">Srpskohrvatski / Српскохрватски</option>
+                <option value="fi">Suomi</option><!-- suomi -->
+                <option value="sv">Svenska</option>
+                <option value="ta">தமிழ்</option><!-- Tamiḻ -->
+                <option value="tt">Татарча / Tatarça</option>
+                <option value="th">ภาษาไทย</option><!-- Phasa Thai -->
+                <option value="tg">Тоҷикӣ</option><!-- Tojikī -->
+                <option value="azb">تۆرکجه</option><!-- Türkce -->
+                <option value="tr">Türkçe</option><!-- Türkçe -->
+                <option value="uk">Українська</option><!-- Ukrayins’ka -->
+                <option value="ur">اردو</option><!-- Urdu -->
+                <option value="vi">Tiếng Việt</option>
+                <option value="vo">Volapük</option>
+                <option value="war">Winaray</option>
+                <option value="zh-yue">粵語</option><!-- Yuht Yúh / Jyut6 jyu5 -->
+                <option value="zh">中文</option><!-- Zhōngwén -->
+                <option value="ko">한국어</option><!-- Hangugeo -->
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td align="right"><label for="open_in_new_tab">Open in a new tab</label></td>
+        <td align="left">
+            <input type="checkbox" id="open_in_new_tab">
+        </td>
+    </tr>
+</table>
+<p>
+    <button id="save">Save</button>
+</p>
+<script src="scripts/options.js"></script>
+</body>
+</html>
